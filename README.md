@@ -15,6 +15,7 @@ Here the list of additional software installed
 - opensmtpd
 - snapper
 - wezterm
+- ghostty
 
 # Image-template
 
