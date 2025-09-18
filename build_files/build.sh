@@ -26,8 +26,8 @@ dnf5 -y copr enable wezfurlong/wezterm-nightly
 dnf5 -y install wezterm
 
 # # _copr:copr.fedorainfracloud.org:scottames:ghostty.repo
-# dnf5 -y copr enable scottames/ghostty
-# dnf5 -y install ghostty
+dnf5 copr -y enable scottames/ghostty
+dnf5 install -y ghostty
 
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
