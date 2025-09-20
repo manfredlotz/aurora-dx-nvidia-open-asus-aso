@@ -13,7 +13,6 @@ set -ouex pipefail
 #dnf5 install -y ghostty asusctl asusctl-rog-gui dovecot dovecot-pigeonhole opensmtpd snapper
 dnf5 install -y snapper dovecot dovecot-pigeonhole opensmtpd
 
-dnf5 install -y okular
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
