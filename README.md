@@ -16,6 +16,7 @@ Here the list of additional software installed
 - snapper
 - wezterm
 - ghostty
+- okular
 
 # Image-template
 
