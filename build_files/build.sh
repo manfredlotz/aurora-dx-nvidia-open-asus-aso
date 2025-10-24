@@ -9,9 +9,8 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# this installs a package from fedora repos
-#dnf5 install -y ghostty asusctl asusctl-rog-gui dovecot dovecot-pigeonhole opensmtpd snapper
-dnf5 install -y snapper dovecot dovecot-pigeonhole opensmtpd
+# install additional packages
+dnf5 install -y snapper dovecot dovecot-pigeonhole opensmtpd firewall-config
 
 # Use a COPR Example:
 #
