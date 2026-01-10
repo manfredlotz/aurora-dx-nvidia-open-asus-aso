@@ -14,7 +14,7 @@ Here the list of additional software installed
 - dovecot and dovecot-pigeonhole
 - opensmtpd
 - snapper
-- wezterm
+- wezterm (removed as we can get wezterm via a brew cask)
 - ghostty
 - firewall-config
 

@@ -21,8 +21,9 @@ dnf5 copr -y enable lukenukem/asus-linux
 dnf5 install -y asusctl asusctl-rog-gui
 
 # wezterm-nightly: https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly
-dnf5 -y copr enable wezfurlong/wezterm-nightly
-dnf5 -y install wezterm
+#  we remove it here as we can get wezterm via a `brew` cask
+# dnf5 -y copr enable wezfurlong/wezterm-nightly
+# dnf5 -y install wezterm
 
 # # _copr:copr.fedorainfracloud.org:scottames:ghostty.repo
 dnf5 copr -y enable scottames/ghostty
