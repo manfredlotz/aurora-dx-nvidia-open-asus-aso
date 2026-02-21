@@ -17,7 +17,7 @@ dnf5 install -y snapper dovecot dovecot-pigeonhole opensmtpd firewall-config
 # dnf5 -y copr enable ublue-os/staging
 
 #  https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/
-dnf5 copr -y enable lukenukem/asus-linux fedora43-x86_64
+dnf5 copr -y enable lukenukem/asus-linux fedora-43-x86_64
 dnf5 install -y asusctl asusctl-rog-gui
 
 # wezterm-nightly: https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly
@@ -26,7 +26,7 @@ dnf5 install -y asusctl asusctl-rog-gui
 # dnf5 -y install wezterm
 
 # # _copr:copr.fedorainfracloud.org:scottames:ghostty.repo
-dnf5 copr -y enable scottames/ghostty fedora43-x86_64
+dnf5 copr -y enable scottames/ghostty fedora-43-x86_64
 dnf5 install -y ghostty
 
 # dnf5 -y install package
