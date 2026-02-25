@@ -10,7 +10,10 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # install additional packages
-dnf5 install -y snapper dovecot dovecot-pigeonhole opensmtpd firewall-config
+dnf5 install -y snapper
+dnf5 install -y dovecot dovecot-pigeonhole
+dnf5 install -y opensmtpd
+dnf5 install -y firewall-config
 dnf5 install -y plasma-login-manager
 # Use a COPR Example:
 #
