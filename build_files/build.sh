@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # install additional packages
 dnf5 install -y snapper dovecot dovecot-pigeonhole opensmtpd firewall-config
-
+dnf5 install -y plasma-login-manager
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
