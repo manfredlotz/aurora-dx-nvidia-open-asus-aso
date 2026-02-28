@@ -16,6 +16,8 @@ dnf5 install -y opensmtpd
 dnf5 install -y firewall-config
 dnf5 install -y plasma-login-manager
 
+# getting more SELinux related  man pages and documentation for SELinux policy modules
+dnf5 install -y selinux-policy-doc
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
