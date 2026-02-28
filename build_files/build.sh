@@ -14,7 +14,8 @@ dnf5 install -y snapper
 dnf5 install -y dovecot dovecot-pigeonhole
 dnf5 install -y opensmtpd
 dnf5 install -y firewall-config
-###dnf5 install -y plasma-login-manager
+dnf5 install -y plasma-login-manager
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
