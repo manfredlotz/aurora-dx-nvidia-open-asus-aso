@@ -18,6 +18,8 @@ dnf5 install -y plasma-login-manager
 
 # getting more SELinux related  man pages and documentation for SELinux policy modules
 dnf5 install -y selinux-policy-doc
+# recreate the man db
+mandb --create
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
