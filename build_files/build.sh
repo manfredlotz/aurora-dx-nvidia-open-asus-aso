@@ -41,6 +41,9 @@ dnf5 install -y ghostty
 # want to use a newer fish version which is on brew
 dnf5 remove -y fish
 
+# remove package which is meant for Framwork laptops
+dnf5 remove -y fw-fanctrl
+
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
