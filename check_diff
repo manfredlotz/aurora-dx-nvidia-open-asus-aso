@@ -1,0 +1,4 @@
+diff --brief --no-dereference --recursive /sysroot/ostree/deploy/default/deploy/edf54e8107a56352acf917f50b56a20fb8f44c48a0ca614f0466d1fe5d5aea14.0/usr/etc /sysroot/ostree/deploy/default/deploy/e260e7b9221e52ba928f04ea51d8e82cca85b9ba8f552e58da25ece61d46fb18.0/usr/etc/
+
+Files /sysroot/ostree/deploy/default/deploy/edf54e8107a56352acf917f50b56a20fb8f44c48a0ca614f0466d1fe5d5aea14.0/usr/etc/shadow and /sysroot/ostree/deploy/default/deploy/e260e7b9221e52ba928f04ea51d8e82cca85b9ba8f552e58da25ece61d46fb18.0/usr/etc/shadow differ
+Files /sysroot/ostree/deploy/default/deploy/edf54e8107a56352acf917f50b56a20fb8f44c48a0ca614f0466d1fe5d5aea14.0/usr/etc/shadow- and /sysroot/ostree/deploy/default/deploy/e260e7b9221e52ba928f04ea51d8e82cca85b9ba8f552e58da25ece61d46fb18.0/usr/etc/shadow- differ

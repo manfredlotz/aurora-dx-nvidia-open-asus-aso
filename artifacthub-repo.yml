@@ -5,7 +5,7 @@
 # How I believe I had found the repository id
 # - Open https://api.github.com/repos/manfredlotz/aurora-dx-nvidia-open-asus-aso
 # - Take the value node_id below the repository name
-repositoryID: R_kgDOPw7htQ
+repositoryID: MDQ6VXNlcjE5Mjg0Mg==
 owners: # (optional, used to claim repository ownership)
   - name: Manfred Lotz
     email: manfred.lotz@posteo.de
