@@ -38,9 +38,6 @@ dnf5 install -y asusctl asusctl-rog-gui
 dnf5 copr -y enable scottames/ghostty fedora-43-x86_64
 dnf5 install -y ghostty
 
-# install emacs
-dnf5 install -y emacs
-
 # want to use a newer fish version which is on brew
 dnf5 remove -y fish
 
