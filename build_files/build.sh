@@ -20,7 +20,6 @@ dnf5 install -y plasma-login-manager
 dnf5 install -y selinux-policy-doc
 
 dnf5 install -y bsdtar
-dnf5 install -y emacsclient
 
 # Use a COPR Example:
 #
