@@ -4,6 +4,7 @@ ls -l
 
 echo "Current dir: $PWD"
 echo "Script: $0"
+ls -l /ctx/
 
 set -ouex pipefail
 
