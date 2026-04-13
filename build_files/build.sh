@@ -57,9 +57,6 @@ dnf5 remove -y input-remapper
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-# Install Epson printer driver
-dnf5 -y install /ctx/epson-inkjet-printer-escpr2-1.2.38-1.x86_64.rpm
-
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
