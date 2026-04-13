@@ -1,7 +1,9 @@
 #!/bin/bash
 
 ls -l
-pwd
+
+echo "Current dir: $PWD"
+echo "Script: $0"
 
 set -ouex pipefail
 
