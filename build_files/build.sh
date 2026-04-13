@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ls -l
+pwd
+
 set -ouex pipefail
 
 ### Install packages
