@@ -53,6 +53,9 @@ dnf5 remove -y fw-fanctrl
 # causes problems sometimes
 dnf5 remove -y input-remapper
 
+# install emacs
+dnf5 install -y emacs-pgtk
+
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
