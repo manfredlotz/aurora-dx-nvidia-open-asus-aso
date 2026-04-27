@@ -17,6 +17,7 @@ set -ouex pipefail
 
 # install additional packages
 dnf5 install -y snapper
+mkdir -p -m 755 /usr/libexec/snapper/plugins
 dnf5 install -y dovecot dovecot-pigeonhole
 dnf5 install -y opensmtpd
 dnf5 install -y firewall-config
