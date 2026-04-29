@@ -4,7 +4,8 @@ COPY build_files /
 
 # Base Image
 #### FROM ghcr.io/ublue-os/bazzite:stable
-FROM ghcr.io/ublue-os/aurora-dx-nvidia-open:stable
+#FROM ghcr.io/ublue-os/aurora-dx-nvidia-open:stable
+FROM ghcr.io/ublue-os/aurora-dx-nvidia-open:latest
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest

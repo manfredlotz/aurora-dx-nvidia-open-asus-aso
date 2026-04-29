@@ -33,8 +33,8 @@ dnf5 install -y bsdtar
 # dnf5 -y copr enable ublue-os/staging
 
 #  https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/
-dnf5 copr -y enable lukenukem/asus-linux fedora-43-x86_64
-dnf5 install -y asusctl asusctl-rog-gui
+# dnf5 copr -y enable lukenukem/asus-linux fedora-43-x86_64
+# dnf5 install -y asusctl asusctl-rog-gui
 
 # wezterm-nightly: https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly
 #  we remove it here as we can get wezterm via a `brew` cask
