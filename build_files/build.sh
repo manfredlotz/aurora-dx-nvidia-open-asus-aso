@@ -44,7 +44,7 @@ dnf5 copr -y enable scottames/ghostty fedora-44-x86_64
 dnf5 install -y ghostty
 
 # want to use a newer fish version which is on brew
-dnf5 remove -y fish
+# dnf5 remove -y fish
 
 # causes problems sometimes
 dnf5 remove -y input-remapper
