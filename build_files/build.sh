@@ -24,9 +24,7 @@ dnf5 install -y firewall-config
 #dnf5 install -y plasma-login-manager
 
 # getting more SELinux related  man pages and documentation for SELinux policy modules
-# dnf5 install -y selinux-policy-doc
-
-dnf5 install -y bsdtar
+dnf5 install -y selinux-policy-doc
 
 # Use a COPR Example:
 #
@@ -47,9 +45,6 @@ dnf5 install -y ghostty
 
 # want to use a newer fish version which is on brew
 dnf5 remove -y fish
-
-# remove package which is meant for Framwork laptops
-dnf5 remove -y fw-fanctrl
 
 # causes problems sometimes
 dnf5 remove -y input-remapper
