@@ -21,10 +21,10 @@ mkdir -p -m 755 /usr/libexec/snapper/plugins
 dnf5 install -y dovecot dovecot-pigeonhole
 dnf5 install -y opensmtpd
 dnf5 install -y firewall-config
-dnf5 install -y plasma-login-manager
+#dnf5 install -y plasma-login-manager
 
 # getting more SELinux related  man pages and documentation for SELinux policy modules
-dnf5 install -y selinux-policy-doc
+# dnf5 install -y selinux-policy-doc
 
 dnf5 install -y bsdtar
 
@@ -42,7 +42,7 @@ dnf5 install -y bsdtar
 # dnf5 -y install wezterm
 
 # # _copr:copr.fedorainfracloud.org:scottames:ghostty.repo
-dnf5 copr -y enable scottames/ghostty fedora-43-x86_64
+dnf5 copr -y enable scottames/ghostty fedora-44-x86_64
 dnf5 install -y ghostty
 
 # want to use a newer fish version which is on brew
