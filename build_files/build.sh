@@ -23,6 +23,9 @@ dnf5 install -y opensmtpd
 dnf5 install -y firewall-config
 #dnf5 install -y plasma-login-manager
 
+# spicy required
+dnf5 install -y spice-gtk-tools
+
 # getting more SELinux related  man pages and documentation for SELinux policy modules
 dnf5 install -y selinux-policy-doc
 
@@ -40,8 +43,8 @@ dnf5 install -y selinux-policy-doc
 # dnf5 -y install wezterm
 
 # # _copr:copr.fedorainfracloud.org:scottames:ghostty.repo
-dnf5 copr -y enable scottames/ghostty fedora-44-x86_64
-dnf5 install -y ghostty
+# dnf5 copr -y enable scottames/ghostty fedora-44-x86_64
+# dnf5 install -y ghostty
 
 # want to use a newer fish version which is on brew
 # dnf5 remove -y fish
